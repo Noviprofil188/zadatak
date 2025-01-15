@@ -91,8 +91,15 @@ const linksList = [
     caption: 'Community Quasar projects',
     icon: 'favorite',
     link: 'https://awesome.quasar.dev'
+  },
+  {
+    title: 'Unos Page',
+    caption: '',
+    icon: 'favorite', 
+    link: '#/unos' 
   }
 ]
+
 
 const leftDrawerOpen = ref(false)
 

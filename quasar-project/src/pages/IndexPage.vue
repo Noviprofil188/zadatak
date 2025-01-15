@@ -6,8 +6,14 @@
       style="width: 200px; height: 200px"
     >
   </q-page>
-</template>
+  <div class="q-pa-md q-gutter-sm">
+    <q-banner inline-actions rounded class="bg-orange text-white">
+      Ovo je dodani banner za quasar.
 
-<script setup>
-//
-</script>
+      <template v-slot:action>
+        <q-btn flat label="Turn ON Wifi" />
+        <q-btn flat label="Dismiss" />
+      </template>
+    </q-banner>
+  </div>
+</template>
